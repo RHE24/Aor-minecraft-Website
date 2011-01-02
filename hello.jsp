@@ -1,7 +1,7 @@
 <HTML>
 <BODY>
 
-<%@ include file="config.jsp" %>
+<%@ include file="config.jsp" %>	//This is the line that is needed to include the configuration from config.jsp for use in this file
 
 
 <%
@@ -21,7 +21,7 @@ Hello!  The time is now
 <TABLE BORDER=2>
 <%
 
-     for ( int i = 0; i < n; i++ ) {
+     for ( int i = 0; i < arbitraryNumber; i++ ) {
         %>
         <TR>
         <TD>Number</TD>
