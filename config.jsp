@@ -16,7 +16,8 @@ String message = "A new user registered for your website, you should check it ou
 String from = "test@appsonroids.com";
 
 
-
+//RSS settings
+String serverAddress = "http://aorminecraft.posterous.com/rss.xml";
 
 
 
