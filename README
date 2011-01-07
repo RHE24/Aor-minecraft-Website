@@ -1,5 +1,10 @@
-This will be the Appsonroids Minecraft Website.
-There are design plans which will soon ( < 1 week) be up.
-The backend is currently planned to be written in Java, but may change.
+This is the code for the Appsonroids Minecraft Website.
+
+The backend is (being) written in JSP.
 The frontend will be done in jQuery, with some HTML (go figure) and CSS (no, really).
-I'll work on this more once I have time, and am not on vacation :)
+
+There are design plans, located in the design folder.
+
+We gladly accept screenshots, which should (hopefully) be from our server, and would be grateful if you could commit them straight into the res/screenshots folder.
+
+
