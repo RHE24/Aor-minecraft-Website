@@ -1,1 +1,4 @@
 Eloquent wordulence will be situated in this locale.
+
+homepage: The first text seen when entering the site.
+disclaimers: Funny legal stuff. Originally part of the homepage but it got so long I thought it warranted its own page.
