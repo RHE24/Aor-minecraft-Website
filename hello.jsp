@@ -1,7 +1,7 @@
 <HTML>
 <BODY>
 
-<%@ include file="config.jsp" %>	//This is the line that is needed to include the configuration from config.jsp for use in this file
+<%@ include file="config.jsp"%><%	//This is the line that is needed to include the configuration from config.jsp for use in this file %>
 
 
 <%
@@ -31,7 +31,11 @@ Hello!  The time is now
     }
 %>
 </TABLE>
-
+<%
+out.println(arbitraryString);
+out.println("<p>Username: " + username);
+out.println("<p>Password: " + password);
+%>
 </BODY>
 </HTML>
 
