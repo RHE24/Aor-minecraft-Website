@@ -49,7 +49,6 @@ Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
     </script>
   </head>
   <body style="font-family: Arial;border: 0 none;">
-	<h3><a href="aorminecraft.posterous.com"> Aor Minecraft Blog </a> </h3>
     <div id="content">Loading...</div>
   </body>
 </html>
