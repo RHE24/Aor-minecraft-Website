@@ -1,3 +1,5 @@
+<%@ include file="config.jsp" %>
+
 <HTML>
 <BODY>
 <%
