@@ -1,0 +1,6 @@
+This file will include the current server world size, in a form like:
+
+34787
+
+This is the size of the server world, in kilobytes.
+This page in general is just placeholder. Assume that the size will magically take the place of this file.
