@@ -31,7 +31,10 @@ Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
         for (var i = 0; i < result.feed.entries.length; i++) {
           var entry = result.feed.entries[i];
           var div = document.createElement("div");
-          div.appendChild(document.createTextNode(entry.title));
+	  var link = document.createElement('a');
+	  link.setAttribute('href',entry.link);
+	  link.appendChild(document.createTextNode(entry.title));
+	  div.appendChild(link);
           container.appendChild(div);
         }
       }
