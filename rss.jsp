@@ -33,16 +33,16 @@ Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
           var div = document.createElement("div");
 	  var link = document.createElement('a');
 	  var date = document.createElement('p');
-	  var snip = document.createElement('p');
+//	  var snip = document.createElement('p');
 	  var pre = document.createElement('pre');
 	  link.setAttribute('href',entry.link);
 	  link.appendChild(document.createTextNode(entry.title));
-	  div.appendChild(link);
-	  pre.appendChild(document.createTextNode("	" + entry.contentSnippet));
-	  snip.appendChild(pre);
-	  div.appendChild(snip);
+//	  pre.appendChild(document.createTextNode("	" + entry.contentSnippet));
+//	  snip.appendChild(pre);
+//	  div.appendChild(snip);
 	  date.appendChild(document.createTextNode(new Date(entry.publishedDate)));
 	  div.appendChild(date);
+	  div.appendChild(link);
           container.appendChild(div);
         }
       }
