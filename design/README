@@ -1,3 +1,5 @@
 This folder will be dedicated to documents regarding the site's design.
 For instance, there is one file here has a scan-in of the rough draft for the frontend design.
 Design documents, such as REQUIREMENTS should also be placed here.
+
+index.html: The (beginning of) the homepage, which only includes the top portion currently and needs some further design work.
