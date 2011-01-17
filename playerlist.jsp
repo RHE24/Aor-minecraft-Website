@@ -17,14 +17,14 @@
 
 %>
 
-
+<FONT COLOR="#FFFFFF">
 <ul>
  <li>Lorem</li>
  <li>Ipsum</li>
  <li>Dolor</li>
  <li>Emet</li>
 </ul>
-
+</FONT>
 
 
 </HTML>
