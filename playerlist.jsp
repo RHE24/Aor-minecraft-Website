@@ -20,10 +20,14 @@
 <FONT COLOR="#FFFFFF">
 <ul>
  <li>Lorem</li>
- <li>Ipsum</li>
- <li>Dolor</li>
- <li>Emet</li>
-</ul>
+ <li>ipsum</li>
+ <li>dolor</li>
+ <li>sit</li>
+ <li>amet</li>
+ <li>consectetur</li>
+ <li>adipiscing</li>
+ <li>elit</li>
+ </ul>
 </FONT>
 
 
