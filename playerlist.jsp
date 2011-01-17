@@ -2,6 +2,9 @@
 
 <HTML>
 <BODY>
+<HEAD>
+<meta http-equiv="refresh" content="5">
+</HEAD>
 <%
 /*
  * This file will get and return the playerlist (who's online) from the server in HTML list format.
