@@ -7,6 +7,7 @@
 <!--
 body {
 	background-color: #000000;
+	background-image:url('../res/img/page-background.png');
 }
 .content {
 	background-color: #333333;
@@ -19,9 +20,15 @@ body,td,th {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size: x-large;
 }
-table { border-radius: 25px; }
-td { border-radius: 25px; }
-iframe { border-radius: 25px; }
+.style2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	background-image:url('../res/img/table-background.png');
+	
+}
+table,td,iframe {
+	border-radius: 15px;
+}
 .style4 {font-size: small}
 -->
 </style>
@@ -38,7 +45,7 @@ iframe { border-radius: 25px; }
         <td height="227"><table width="797" height="210" border="1">
           <tr>
             <td width="555" height="204">WORLD MAP GOES HERE</td>
-            <td width="226" valign="top" class="style1"><p>About Us</p>
+            <td width="226" valign="top" class="style2"><p>About Us</p>
               <p class="style4">This independantly-run Minecraft server is now in control of your brain. Join us in building an empire worthy of the great creator Aor!</p>
               </td>
           </tr>
@@ -50,7 +57,7 @@ iframe { border-radius: 25px; }
       <p class="style4">Running Minecraft Beta 1.2_01</p>
       <p class="style4">Bukkit Version 1.2</p>
       <p><h5>Who's online?</h5></p>
-		<iframe src="../playerlist.jsp" width="100%" height="200">
+		<iframe src="../playerlist.jsp" width="100%" height="200" class="style2">
 			Your browser doesn't support iframes...
 		</iframe>
     </td>
