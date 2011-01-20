@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <%@ include file="config.jsp" %>
 
 <HTML>
@@ -12,11 +15,12 @@
  * Right now it'll just return static lipsum, but later it'll actually do stuff.
  * 
  * Config will be read from config.jsp
+ *
+ * I did some testing, and this can be simply changed in place, and the website would act as normal. We could even put text saying that the "playerlist is not ready" here, and take this live after the site goes up
  */
 
 
 %>
-
 <FONT COLOR="#FFFFFF">
 <ul>
  <li>Lorem</li>
