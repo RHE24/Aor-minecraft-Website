@@ -4,11 +4,6 @@
  * (i.e, anything that needs to get user-set properties, will later be for usernames + passwords to the various external services the server needs to access)
  */
 
-int arbitraryNumber = 34;
-String arbitraryString = "Look, ma, I can put stuff here, and it shows over there!";
-String username = "Username";
-String password = "supersecretpassword";
-
 //Email Settings
 String recipient = "apply@appsonroids.com";;
 String subject = "New user registration for blahblahblah";
