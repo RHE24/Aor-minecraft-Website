@@ -38,6 +38,7 @@ Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
 	  var pre = document.createElement('pre');
 	  var postDate = new Date(entry.publishedDate);
 	  link.setAttribute('href',entry.link);
+	  link.setAttribute('target',"_blank");
 	  link.appendChild(document.createTextNode(entry.title));
 	  topText.appendChild(document.createTextNode("Announcements"));
 //	  pre.appendChild(document.createTextNode("	" + entry.contentSnippet));
